@@ -1,0 +1,26 @@
+a:2:{s:4:"meta";a:3:{s:5:"title";s:0:"";s:5:"descr";s:0:"";s:7:"options";a:2:{s:10:"usageCount";N;s:19:"includeCodeAbstract";N;}}s:5:"files";a:1:{s:14:"MD5_19aaeae789";a:4:{s:8:"filename";s:14:"mod1/index.php";s:8:"filesize";i:12594;s:6:"header";a:5:{s:4:"text";s:62:"
+
+Module 'Mindmap Import' for the 'mindmap_import' extension.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:41:"@author	 Martin Baum<martin_baum@gmx.net>";i:1;s:14:"@package	TYPO3";i:2;s:28:"@subpackage	tx_mindmapimport";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:32:"Martin Baum<martin_baum@gmx.net>";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:17:"tx_mindmapimport ";}}}s:3:"DAT";a:12:{i:1;a:8:{s:6:"header";s:54:"class  tx_mindmapimport_module1 extends t3lib_SCbase {";s:5:"class";i:1;s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:4:"cDat";a:5:{s:4:"text";s:62:"
+
+Module 'Mindmap Import' for the 'mindmap_import' extension.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:41:"@author	 Martin Baum<martin_baum@gmx.net>";i:1;s:14:"@package	TYPO3";i:2;s:28:"@subpackage	tx_mindmapimport";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:32:"Martin Baum<martin_baum@gmx.net>";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:17:"tx_mindmapimport ";}}}s:7:"content";s:0:"";s:12:"content_size";i:690;s:13:"content_lines";i:11;s:6:"atLine";i:53;}i:3;a:7:{s:6:"header";s:17:"function init()	{";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:4:"cDat";a:3:{s:4:"text";s:25:"
+
+Initializes the Module
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:4:"void";i:1;s:0:"";}}s:7:"content";s:0:"";s:12:"content_size";i:409;s:13:"content_lines";i:13;s:6:"atLine";i:70;}i:5;a:7:{s:6:"header";s:17:"function main()	{";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:4:"cDat";a:3:{s:4:"text";s:223:"
+
+Main function of the module. Write the content to $this->content
+If you chose "web" as main module, you will need to consider the $this->id parameter which will contain the uid-number of the page clicked in the page tree
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:1445;s:13:"content_lines";i:61;s:6:"atLine";i:90;}i:7;a:6:{s:6:"header";s:25:"function jumpToUrl(URL)	{";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:7:"content";s:0:"";s:12:"content_size";i:1656;s:13:"content_lines";i:45;s:6:"atLine";i:163;}i:9;a:7:{s:6:"header";s:25:"function printContent()	{";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:4:"cDat";a:3:{s:4:"text";s:29:"
+
+Prints out the module HTML
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:4:"void";i:1;s:0:"";}}s:7:"content";s:0:"";s:12:"content_size";i:82;s:13:"content_lines";i:5;s:6:"atLine";i:214;}i:11;a:7:{s:6:"header";s:25:"function moduleContent(){";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:4:"cDat";a:3:{s:4:"text";s:31:"
+
+Generates the module content
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:4:"void";i:1;s:0:"";}}s:7:"content";s:0:"";s:12:"content_size";i:1539;s:13:"content_lines";i:54;s:6:"atLine";i:225;}i:13;a:6:{s:6:"header";s:31:"function selectPageRootNode() {";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:7:"content";s:0:"";s:12:"content_size";i:9;s:13:"content_lines";i:3;s:6:"atLine";i:285;}i:15;a:6:{s:6:"header";s:28:"function findMediaFolder() {";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:7:"content";s:0:"";s:12:"content_size";i:9;s:13:"content_lines";i:3;s:6:"atLine";i:294;}i:17;a:6:{s:6:"header";s:29:"function renderImportForm() {";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:7:"content";s:0:"";s:12:"content_size";i:1220;s:13:"content_lines";i:34;s:6:"atLine";i:303;}i:19;a:6:{s:6:"header";s:31:"function renderSubmitNotice() {";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:7:"content";s:0:"";s:12:"content_size";i:50;s:13:"content_lines";i:3;s:6:"atLine";i:343;}i:21;a:3:{s:6:"header";s:30:"function renderErrorNotice() {";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:6:"atLine";i:352;}i:23;a:7:{s:6:"header";s:35:"function importFile($fileContent) {";s:11:"parentClass";s:24:"tx_mindmapimport_module1";s:4:"cDat";a:3:{s:4:"text";s:206:"
+
+function is responsible for the importing of the array
+given from the current parser, into the target table
+if the flag "not import root element" is set, the root
+element of the tree to import is not set
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:57:"$fileContent: content of the file that should be imported";}i:1;a:2:{i:0;s:6:"[type]";i:1;s:14:"$parentID: ...";}}s:6:"return";a:2:{i:0;s:4:"void";i:1;s:0:"";}}s:7:"content";s:0:"";s:12:"content_size";i:1642;s:13:"content_lines";i:50;s:6:"atLine";i:367;}}}}}

@@ -1,0 +1,8 @@
+(add new changes on top of this file)
+
+06-12-15   <>
+
+	* Initial release
+	
+08-05-08
+	Bugfix: setting charset to utf-8 for Mindmanager XML Files
